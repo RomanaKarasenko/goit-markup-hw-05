@@ -582,6 +582,7 @@ width: calc((100% - 72px) / 4);
  }
  .realform{
     display: flex;
+    gap: 24px;
     
  }
  .inputfooter{
@@ -617,4 +618,13 @@ width: calc((100% - 72px) / 4);
     background-color: #4D5AE5;
     border: none; 
     border-radius: 4px;
+   
+ }
+ .formsvg{
+    margin-left: 16px; 
+    order: 2;
+
+ }
+ .formcontainer{
+    margin-left: auto;
  }
