@@ -698,7 +698,7 @@ width: calc((100% - 72px) / 4);
     color:#2E2F42;
     margin-bottom: 16px; 
 }
-.formmodaldiv{
+.formmodalone{
     margin-bottom: 8px;
 
 }
@@ -710,7 +710,7 @@ width: calc((100% - 72px) / 4);
     display: block; 
     margin-bottom: 4px;
 }
-.formmodalone{
+.formmodaltwo{
     position: relative; 
 }
 .inputmodal{
