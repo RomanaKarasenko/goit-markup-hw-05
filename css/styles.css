@@ -739,10 +739,16 @@ width: calc((100% - 72px) / 4);
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .namesvg:focus {
-    fill: #4D5AE5;
-  }
- 
+  
+
+  .inputdiv .namesvg {
+    fill: #000; 
+}
+.inputmodal:focus + .namesvg,
+.inputdiv:hover .inputmodal + .namesvg {
+    fill: #4D5AE5; 
+}
+
   .formmodalfour{
     margin-bottom: 16px;
   }
